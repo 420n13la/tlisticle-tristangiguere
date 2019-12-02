@@ -1,0 +1,124 @@
+/* Author Info */
+
+.author_about{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+#author_picture{
+	height: 100px;
+	width: 100px;
+	top: -50px;
+	border-radius: 100%;
+	border: 1px;
+	border-color: white;
+	margin-top: -50px;
+}
+
+
+/* Article Content */
+
+#article_about{
+	font-size: 17px;
+	color: rgb(51,51,51);
+	font-family: 'Alice', serif;
+	font-style: italic;
+	line-height: 33px;
+	margin-top: -23px;
+}
+
+.articlename{
+	color: rgb(51,51,51);
+}
+
+.articlenumber{
+	color: rgba(0,0,0,0.25);
+}
+
+.articlelink{
+	color: #42b4d6;
+	margin-bottom: 20px;
+	text-decoration: none;
+	font-weight: none;
+}
+
+.articlelink:hover{
+	text-decoration: underline;
+}
+
+.articlefeatured{
+	width: 100%;
+	margin-bottom: 120px;
+}
+
+.article-paragraph-one{
+	font-size: 23px;
+	color: rgb(51,51,51);
+	font-family: 'Alice', serif;
+	margin-bottom: 20px;
+	line-height: 32px;
+}
+
+.article-paragraph-two{
+	font-size: 23px;
+	color: rgb(51,51,51);
+	font-family: 'Alice', serif;
+	font-style: italic;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+	background-color: gold;
+
+}
+
+/* Page Structure & Global Elements */
+
+.wrapper{
+	width: 66.6%;
+	margin: auto;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 500px;
+	background-image:  linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(header.png);
+	background-repeat: none;
+	background-size: cover;
+	background-position: top;
+	
+}
+
+#page-heading{
+	font-size: 55px;
+	color: white;
+	font-family: 'Miriam Libre', sans-serif;
+	font-weight: normal;
+	max-width: 780px;
+}
+
+h2{
+	font-size: 45px;
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 33px;
+	color: rgb(51,51,51);
+	font-family: 'Alice', serif;
+	line-height: 33px;
+}
+
+
+hr{
+	color: #e6e6e6; 
+ 	height: 2px;
+    margin-top: 10px;  
+}
+ 
